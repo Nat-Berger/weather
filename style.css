@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+}
+.card{
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    height: 325px;
+    width: 325px;
+    border-radius: 20px;
+}
+.search{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    border-radius: 5px;
+
+}
+.input{
+    border-radius: 8px;
+    font-weight: 0;
+    border: white;
+    color: black;
+    border-style: hidden;
+    outline: 0;
+    padding-left: 8px;
+}
+.fa-solid fa-magnifying-glass {
+    height: 25px;
+    width: 25px;
+}
+.search-icon{
+    border-radius: 8px;
+    border: 0;
+    outline: 0;   
+}
+.weather{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    font-family: monospace;
+    font-size: 3vh;
+    justify-content: space-evenly;
+}
+.fa-cloud-rain{
+    font-size: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
